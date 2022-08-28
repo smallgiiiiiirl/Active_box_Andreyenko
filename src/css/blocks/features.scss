@@ -1,0 +1,140 @@
+.features-list {
+  margin-top: 245px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  row-gap: 217px;
+  position: relative;
+}
+.list__item {
+  width: 370px;
+}
+.list__title {
+  padding: 24px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #2d3033;
+}
+.list__paragraph {
+  padding: 10px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+
+  color: #6c7279;
+}
+.img::before {
+  content: "";
+  background-image: url("/src/images/icon_1.png");
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  display: block;
+  position: absolute;
+  top: -110px;
+  left: 145px;
+}
+.img--2::before {
+  content: "";
+  background-image: url("/src/images/icon_2.png");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  top: -110px;
+  left: 535px;
+}
+.img--3::before {
+  content: "";
+  background-image: url("/src/images/icon_3.png");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  top: -110px;
+  left: 935px;
+}
+.img--4::before {
+  content: "";
+  background-image: url("/src/images/icon_4.png");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  top: 300px;
+  left: 135px;
+}
+.img--5::before {
+    content: "";
+    background-image: url("/src/images/icon_5.png");
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    top: 300px;
+    left: 535px;
+  }
+  .img--6::before {
+    content: "";
+    background-image: url("/src/images/icon_6.png");
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    top: 300px;
+    left: 935px;
+  }
+
+  @media (max-width:1510px){
+    .features-list {
+       width: 315px;
+       gap:20px;
+       row-gap: 158px;
+      }
+      .list__item {
+       
+      }
+      .list__title {
+        font-size: 18px;
+        line-height: 21px;
+      }
+      .list__paragraph {
+        font-size: 14px;
+        line-height: 16px;
+      }
+      .img::before {
+        width: 85px;
+        height: 83px;
+      }
+      .img--2::before {
+       
+      }
+      .img--3::before {
+    
+      }
+      .img--4::before {
+        
+      }
+      .img--5::before {
+         
+        }
+        .img--6::before {
+          
+        }
+  }
