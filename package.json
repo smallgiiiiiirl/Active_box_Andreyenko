@@ -1,0 +1,27 @@
+{
+  "name": "active_box",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smallgiiiiiirl/active_box_Andreyenko.git"
+  },
+  "author": "andreyenko_darya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smallgiiiiiirl/active_box_Andreyenko/issues"
+  },
+  "homepage": "https://github.com/smallgiiiiiirl/active_box_Andreyenko#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0",
+    "sass": "^1.54.5"
+  }
+}
