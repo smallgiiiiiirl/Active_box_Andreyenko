@@ -3,14 +3,14 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  row-gap: 217px;
+  row-gap: 195px;
   position: relative;
 }
 .list__item {
   width: 370px;
 }
 .list__title {
-  padding: 24px;
+  padding: 21px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 900;
@@ -23,7 +23,8 @@
   color: #2d3033;
 }
 .list__paragraph {
-  padding: 10px;
+  padding: 23px;
+  padding-inline: 0;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
@@ -107,9 +108,9 @@
        gap:20px;
        row-gap: 158px;
       }
-      .list__item {
+      // .list__item {
        
-      }
+      // }
       .list__title {
         font-size: 18px;
         line-height: 21px;
@@ -122,19 +123,19 @@
         width: 85px;
         height: 83px;
       }
-      .img--2::before {
+      // .img--2::before {
        
-      }
-      .img--3::before {
+      // }
+      // .img--3::before {
     
-      }
-      .img--4::before {
+      // }
+      // .img--4::before {
         
-      }
-      .img--5::before {
+      // }
+      // .img--5::before {
          
-        }
-        .img--6::before {
+      //   }
+      //   .img--6::before {
           
-        }
+      //   }
   }

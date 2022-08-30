@@ -1,0 +1,37 @@
+.title {
+  margin-top: 125px;
+}
+.paragraph {
+  margin-top: 31px;
+}
+.button__wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 120px;
+}
+.button {
+  margin-top: 80px;
+  padding: 26px;
+  padding-inline: 75px;
+  border: none;
+  background-color: #ff4343;
+  max-width: 369px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.button:hover {
+  background: #e71414;
+}
+.button:active {
+  background: #ff4343;
+  box-shadow: 4px 4px 30px #ff4343;
+}

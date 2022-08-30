@@ -1,0 +1,14 @@
+.work {
+  margin-top: 110px;
+}
+.work_wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.work__images {
+  width: 379px;
+  height: 340px;
+}
+.work__images:hover{
+    background-color: red;
+}
