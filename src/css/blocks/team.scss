@@ -1,9 +1,9 @@
-.team{
-    margin-top: 100px;
+.team {
+  margin-top: 100px;
 }
-.team-list{
-    display: flex;
-    gap: 30px;
+.team-list {
+  display: flex;
+  gap: 30px;
 }
 .list_team__item {
   max-width: 270px;
@@ -48,4 +48,26 @@
   padding-top: 38px;
   display: flex;
   gap: 6px;
+}
+
+@media (max-width: 1024px) {
+  .team-list {
+    flex-direction: column;
+  }
+  .name {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .prof {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .inf__text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .media_img{
+    width: 39px;
+    height: 39px;
+  }
 }

@@ -16,8 +16,19 @@
     <section class="common_back">
       <header>
         <div class="conteiner">
-          <div class="logo_wrap">
-            <img src="/src/images/logo.svg" alt="logo" class="logo" />
+          <div class="header__wrap">
+            <div class="logo_wrap">
+              <img src="/src/images/logo.svg" alt="logo" class="logo" />
+            </div>
+            <nav>
+              <ul id="navbar">
+                <li><a href="#features">features</a></li>
+                <li><a href="#works">works</a></li>
+                <li><a href="#team">our team</a></li>
+                <li><a href="#testimonials">testimonials</a></li>
+                <li><a href="#download">download</a></li>
+              </ul>
+            </nav>
           </div>
         </div>
       </header>
@@ -353,26 +364,40 @@
         </section>
       </div>
       <section class="testimonials" id="slider_bl">
-        <div class="wrapper"></div>
-        <input checked type="radio" name="slider" id="slide1" />
-        <input type="radio" name="slider" id="slide2" />
-        <input type="radio" name="slider" id="slide3" />
-        <input type="radio" name="slider" id="slide4" />
-        <input type="radio" name="slider" id="slide5" />
-        <div class="slider-wrapper">
-          <div class="inner"></div>
+        <div class="wrapper">
+          <input checked type="radio" name="slider" id="slide1" />
+          <input type="radio" name="slider" id="slide2" />
+          <input type="radio" name="slider" id="slide3" />
+          <input type="radio" name="slider" id="slide4" />
+          <input type="radio" name="slider" id="slide5" />
+          <div class="slider-wrapper">
+            <div class="inner">
+              <article class="testimonials_wrap">
+                <div class="tetimonials_img__wrap">
+                  <img
+                    class="testimonials_img"
+                    src="/src/images/testimonials.jpg"
+                    alt="testimonials"
+                  />
+                </div>
+                <div class="testimonials__content">
+                  <h2 class="testimonials_text">
+                    “Integer posuere erat a ante venenatis dapibus posuere velit
+                    aliquet. Donec sed odio dui. Aenean eu leo quam...”
+                  </h2>
+                  <p class="author">Susan Sims, Interaction Designer at XYZ</p>
+                </div>
+              </article>
+            </div>
+          </div>
         </div>
-        <div class="testimonials_wrap">
-          <div class="tetimonials_img__wrap">
-            <img src="/src/images/testimonials.jpg" alt="testimonials" />
-          </div>
-          <div class="testimonials__content">
-            <h2 class="testimonials_text">
-              “Integer posuere erat a ante venenatis dapibus posuere velit
-              aliquet. Donec sed odio dui. Aenean eu leo quam...”
-            </h2>
-            <p class="author">Susan Sims, Interaction Designer at XYZ</p>
-          </div>
+
+        <div class="slider-dot-control">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+          <label for="slide4"></label>
+          <label for="slide5"></label>
         </div>
       </section>
       <div class="conteiner">
@@ -393,56 +418,55 @@
     <footer class="footer">
       <div class="footer__wrap">
         <ul class="foot-list">
-        <li class="foot__item">
-          <h5 class="title__footer">Location</h5>
-          <p class="paragraph__footer">
-            3481 Melrose Place Beverly Hills, CA 90210
+          <li class="foot__item">
+            <h5 class="title__footer">Location</h5>
+            <p class="paragraph__footer">
+              3481 Melrose Place Beverly Hills, CA 90210
+            </p>
+          </li>
+          <li class="foot__item">
+            <h5 class="title__footer">Share with Love</h5>
+            <ul class="footer_media">
+              <li class="footer__element">
+                <a class="facebook" href="facebook"
+                  ><img
+                    class="media_img"
+                    src="/src/images/facebook.svg"
+                    alt="facebook"
+                /></a>
+              </li>
+              <li class="footer__element">
+                <a class="twitter" href="twitter"
+                  ><img
+                    class="media_img"
+                    src="/src/images/twitter.svg"
+                    alt="twitter"
+                /></a>
+              </li>
+              <li class="footer__element">
+                <a class="linkedin" href="linkedin"
+                  ><img
+                    class="media_img"
+                    src="/src/images/linkedin.svg"
+                    alt="linkedin"
+                /></a>
+              </li>
+            </ul>
+          </li>
+          <li class="foot__item">
+            <h5 class="title__footer">About ActiveBox</h5>
+            <p class="paragraph__footer">
+              Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec
+              ullamcorper nulla non metus auctor fringilla.
+            </p>
+          </li>
+        </ul>
+        <div class="copyright">
+          <p class="copy_paragraph">
+            Copyright © 2015 ActiveBox. All Rights Reserved Made with
+            <span class="new__color"> by Kamal Chaneman</span>
           </p>
-        </li>
-        <li class="foot__item">
-          <h5 class="title__footer">Share with Love</h5>
-          <ul class="footer_media">
-            <li class="footer__element">
-              <a class="facebook" href="facebook"
-                ><img
-                  class="media_img"
-                  src="/src/images/facebook.svg"
-                  alt="facebook"
-              /></a>
-            </li>
-            <li class="footer__element">
-              <a class="twitter" href="twitter"
-                ><img
-                  class="media_img"
-                  src="/src/images/twitter.svg"
-                  alt="twitter"
-              /></a>
-            </li>
-            <li class="footer__element">
-              <a class="linkedin" href="linkedin"
-                ><img
-                  class="media_img"
-                  src="/src/images/linkedin.svg"
-                  alt="linkedin"
-              /></a>
-            </li>
-          </ul>
-        </li>
-        <li class="foot__item">
-          <h5 class="title__footer">About ActiveBox</h5>
-          <p class="paragraph__footer">
-            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec
-            ullamcorper nulla non metus auctor fringilla.
-          </p>
-        </li>
-      </ul>
-      </div>
-      
-      <div class="copyright">
-        <p class="copy_paragraph">
-          Copyright © 2015 ActiveBox. All Rights Reserved Made with by Kamal
-          Chaneman
-        </p>
+        </div>
       </div>
     </footer>
   </body>

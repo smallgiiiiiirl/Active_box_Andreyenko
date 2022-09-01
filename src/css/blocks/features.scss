@@ -80,62 +80,65 @@
   left: 135px;
 }
 .img--5::before {
-    content: "";
-    background-image: url("/src/images/icon_5.png");
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 100px;
-    display: block;
-    position: absolute;
-    top: 300px;
-    left: 535px;
-  }
-  .img--6::before {
-    content: "";
-    background-image: url("/src/images/icon_6.png");
-    background-repeat: no-repeat;
-    width: 100px;
-    height: 100px;
-    display: block;
-    position: absolute;
-    top: 300px;
-    left: 935px;
-  }
+  content: "";
+  background-image: url("/src/images/icon_5.png");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  top: 300px;
+  left: 535px;
+}
+.img--6::before {
+  content: "";
+  background-image: url("/src/images/icon_6.png");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  top: 300px;
+  left: 935px;
+}
 
-  @media (max-width:1510px){
-    .features-list {
-       width: 315px;
-       gap:20px;
-       row-gap: 158px;
-      }
-      // .list__item {
-       
-      // }
-      .list__title {
-        font-size: 18px;
-        line-height: 21px;
-      }
-      .list__paragraph {
-        font-size: 14px;
-        line-height: 16px;
-      }
-      .img::before {
-        width: 85px;
-        height: 83px;
-      }
-      // .img--2::before {
-       
-      // }
-      // .img--3::before {
-    
-      // }
-      // .img--4::before {
-        
-      // }
-      // .img--5::before {
-         
-      //   }
-      //   .img--6::before {
-          
-      //   }
+@media (max-width: 1510px) {
+  .features-list {
+    width: 315px;
+    gap: 20px;
+    row-gap: 158px;
   }
+  .list__title {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .list__paragraph {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .img::before {
+    width: 85px;
+    height: 83px;
+  }
+}
+@media (max-width: 1024px) {
+  .features-list{
+    width: 279px;
+    margin-top: 149px;
+  }
+  .list__title {
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .list__paragraph {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .list__item{
+    width:279px;
+  }
+  .img::before{
+    width: 75px;
+    height: 75px;
+  }
+}

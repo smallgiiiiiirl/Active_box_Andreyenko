@@ -11,9 +11,8 @@
   padding-bottom: 120px;
 }
 .button {
-  margin-top: 80px;
-  padding: 26px;
-  padding-inline: 75px;
+  margin-top: 98px;
+  padding: 22px 75px;
   border: none;
   background-color: #ff4343;
   max-width: 369px;
@@ -34,4 +33,19 @@
 .button:active {
   background: #ff4343;
   box-shadow: 4px 4px 30px #ff4343;
+}
+
+@media (max-width: 1024px) {
+  .title {
+    margin-top: 52px;
+  }
+  .button {
+    padding: 15px 30px;
+    max-width: 280px;
+    margin-top: 68px;
+  }
+  .paragraph {
+    font-size: 14px;
+    line-height: 16px;
+  }
 }
